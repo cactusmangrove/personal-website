@@ -5,10 +5,11 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ameliarowland.github.io',
+  site: 'https://cactusmangrove.github.io',
   base: '/personal-website',
   vite: {
     plugins: [tailwindcss()]
   },
   integrations: [sitemap()]
 });
+
