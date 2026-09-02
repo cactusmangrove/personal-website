@@ -9,14 +9,14 @@ const maps = (await getCollection('maps', ({ data }) => !data.draft)).sort(
 ---
 
 <BaseLayout
-  title="Maps — Your Name"
-  description="A customizable gallery for maps, data visualizations, and project stories."
+  title="Maps — Reka Toth"
+  description="Maps and spatial stories from Reka Toth’s geoecology practice."
 >
   <section class="max-w-5xl mx-auto px-4 sm:px-6 pt-16 pb-12">
     <h1 class="font-display text-3xl sm:text-4xl font-bold">Maps</h1>
     <p class="mt-4 text-text-muted max-w-2xl">
-      Use these template articles as a starting point for static cartography and
-      interactive web maps. Replace the previews, metadata, and prose with your work.
+      A growing collection of spatial stories and geoecological explorations. New work
+      will examine wetlands, soil health, greenhouse-gas analysis, and water-cycle restoration.
     </p>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
       {maps.map((map) => <MapCard map={map} />)}
@@ -26,3 +26,4 @@ const maps = (await getCollection('maps', ({ data }) => !data.draft)).sort(
     )}
   </section>
 </BaseLayout>
+
