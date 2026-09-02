@@ -2,6 +2,7 @@
 const navLinks = [
   { href: '/', label: 'Home' },
   { href: '/maps', label: 'Maps' },
+  { href: '/shoemaking', label: 'Shoemaking' },
   { href: '/about', label: 'About' },
 ];
 
@@ -13,7 +14,7 @@ const siteHref = (path: string) => `${base}${path}` || '/';
 <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-border">
   <nav class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
     <a href={siteHref('/')} class="font-display text-xl font-semibold text-text hover:text-primary transition-colors">
-      Your Name
+      Reka Toth
     </a>
 
     <ul class="flex items-center gap-6">
@@ -35,3 +36,4 @@ const siteHref = (path: string) => `${base}${path}` || '/';
     </ul>
   </nav>
 </header>
+
