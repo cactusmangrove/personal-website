@@ -7,7 +7,7 @@ embedUrl: https://www.openstreetmap.org/export/embed.html?bbox=16.2570%2C48.1280
 externalUrl: https://www.openstreetmap.org/#map=12/48.2090/16.3810
 tools: [OpenStreetMap]
 tags: [template, interactive]
-draft: false
+draft: true
 ---
 
 This is a **template interactive entry**. Set `embedUrl` in the frontmatter to
@@ -27,3 +27,4 @@ and design choices needed to make the map reproducible.
 
 Describe the main result, limitations, and what you would improve next. Replace
 the demo OpenStreetMap URLs with your own embed and full-screen destination.
+
