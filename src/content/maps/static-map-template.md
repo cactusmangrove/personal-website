@@ -5,7 +5,7 @@ date: 2026-01-15
 image: /maps/static-map-template.svg
 tools: [QGIS]
 tags: [template, static]
-draft: false
+draft: true
 ---
 
 This is a **template static map entry**. To turn it into a real project:
@@ -31,3 +31,4 @@ used. Never present invented placeholder values as real findings.
 
 Summarize the spatial pattern the map reveals, its limitations, and the next
 iteration you would make.
+
